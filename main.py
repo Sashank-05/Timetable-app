@@ -9,7 +9,7 @@ from flask import Flask, jsonify, request, render_template
 # create a flask app
 
 app = Flask(__name__)
-
+port = os.enironment("PORT",5000)
 
 # create a route for the app to show all endpoints
 @app.route('/')
@@ -124,4 +124,4 @@ def admin():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host="127.0.0.1")
+    app.run(debug=True, host="localhost", port = port)
