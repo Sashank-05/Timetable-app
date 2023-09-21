@@ -1,4 +1,4 @@
-# TimeTable App
+# TimeTable App API
 
 This app is a simple timetable app which can help you to manage your routine,
 and also can help you to plan your day.
